@@ -23,5 +23,27 @@ A full-featured blog web application where users can sign up, create posts, and 
 | React Router DOM | ^6.x        | Client-side routing          |
 | Tailwind CSS     | ^3.x        | UI styling                   |
 
+⚙️ **How to Run Locally**
+Follow these steps to run Garden Tribe on your local machine:
+
+# 1. Clone the repo
+git clone https://github.com/your-username/garden-tribe.git
+
+# 2. Navigate into the project directory
+cd garden-tribe
+
+# 3. Install dependencies
+npm install
+
+# 4. Create a .env file and add necessary environment variables
+REACT_APP_apiKey=your_firebase_api_key
+REACT_APP_authDomain=...
+REACT_APP_projectId=...
+REACT_APP_storageBucket=...
+REACT_APP_messagingSenderId=...
+REACT_APP_appId=...
+
+# 5. Start the app
+npm start
 ## 🔗 Live Website
 👉 [Visit BlogNest](https://blog-nest-a9329.web.app/)
