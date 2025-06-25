@@ -28,7 +28,7 @@ A full-featured blog web application where users can sign up, create posts, and 
 ```bash
 "react"
 "react-dom"
-"react-router-dom"
+"react-router"
 "firebase"
 "tailwindcss"
 "daisyui"
