@@ -1,4 +1,5 @@
 # 📝 BlogNest – A Modern Blogging Web App
+A full-featured blog web application where users can sign up, create posts, and read blogs in real-time. It supports dynamic content rendering, user authentication, and mobile responsiveness.
 
 ## 🌟 Main Features
 - 🔐 User authentication (Sign in/up via Firebase)
