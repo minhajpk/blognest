@@ -23,27 +23,46 @@ A full-featured blog web application where users can sign up, create posts, and 
 | React Router DOM | ^6.x        | Client-side routing          |
 | Tailwind CSS     | ^3.x        | UI styling                   |
 
-⚙️ **How to Run Locally**
-Follow these steps to run Garden Tribe on your local machine:
+## 📦 Project Dependencies
 
+```bash
+"react"
+"react-dom"
+"react-router-dom"
+"firebase"
+"tailwindcss"
+"daisyui"
+"react-icons"
+"react-toastify"
+```
+
+---
+
+## ⚙️ How to Run Locally
+
+Follow these steps to run **Blog Nest** on your local machine:
+
+```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/garden-tribe.git
+git clone https://github.com/your-username/blog-nest.git
 
-# 2. Navigate into the project directory
-cd garden-tribe
+# 2. Navigate into the project folder
+cd blog-nest
 
 # 3. Install dependencies
 npm install
 
-# 4. Create a .env file and add necessary environment variables
+# 4. Add Firebase config in .env file
 REACT_APP_apiKey=your_firebase_api_key
-REACT_APP_authDomain=...
-REACT_APP_projectId=...
-REACT_APP_storageBucket=...
-REACT_APP_messagingSenderId=...
-REACT_APP_appId=...
+REACT_APP_authDomain=your_auth_domain
+REACT_APP_projectId=your_project_id
+REACT_APP_storageBucket=your_storage_bucket
+REACT_APP_messagingSenderId=your_sender_id
+REACT_APP_appId=your_app_id
 
-# 5. Start the app
+# 5. Run the development server
 npm start
+```
+
 ## 🔗 Live Website
 👉 [Visit BlogNest](https://blog-nest-a9329.web.app/)
